@@ -42,7 +42,7 @@ if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     export VIRTUAL_ENV=$(cygpath "/home/home/AssignmentEcoWiser/backend/env")
 else
     # use the path as-is
-    export VIRTUAL_ENV="/home/home/AssignmentEcoWiser/backend/env"
+    export VIRTUAL_ENV="/home/home/ecomSample/backend/env"
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"
